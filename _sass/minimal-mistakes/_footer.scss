@@ -8,13 +8,13 @@
   margin-left: 0;
   margin-right: 0;
   width: 100%;
-  margin-top: 3em;
+  //margin-top: 3em;
   color: $muted-text-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
-  background-color: $footer-background-color;
+  //background-color: $footer-background-color;
 
   footer {
     @include clearfix;
@@ -60,6 +60,7 @@
 
   li {
     display: inline-block;
+    margin: auto;
     padding-top: 5px;
     padding-bottom: 5px;
     font-family: $sans-serif-narrow;
@@ -67,19 +68,19 @@
     text-transform: uppercase;
   }
 
-  li + li:before {
-    content: "";
-    padding-right: 5px;
-  }
+  // li + li:before {
+  //   content: "";
+  //   padding-right: 5px;
+  // }
 
   a {
     padding-right: 10px;
     font-weight: bold;
   }
 
-  .social-icons {
-    a {
-      white-space: nowrap;
-    }
-  }
+  // .social-icons {
+  //   a {
+  //     white-space: nowrap;
+  //   }
+  // }
 }
