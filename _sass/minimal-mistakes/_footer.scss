@@ -52,6 +52,10 @@
 }
 
 .page__footer-follow {
+
+  display: flex;
+  justify-content: center;
+  
   ul {
     margin: 0;
     padding: 0;
