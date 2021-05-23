@@ -8,10 +8,8 @@ layout: archive
 permalink: /about
 ---
 
-## Namaste--- Aditya here 
+# :pray: Namaste--- Aditya here!
 
-:pray:
- {:joy:} I am trippin'
 
-You can also add notices by appending `{: .notice}` to a paragraph.
-{: .notice}
+:poop: Upcoming graduate student at University of Illinois at Chicago
+:metal:  Currently, I'm trippin on life
