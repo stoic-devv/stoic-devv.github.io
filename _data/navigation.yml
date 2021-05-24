@@ -4,8 +4,10 @@ main:
     url: /blog
   - title: "Projects"
     url: /projects
-  - title: "Story"
-    url: /story
+  - title: "About"
+    url: /about
+  - title: "Resume"
+    url: /resume
     
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

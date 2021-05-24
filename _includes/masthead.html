@@ -11,13 +11,46 @@
           {{ site.masthead_title | default: site.title }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a> -->
+
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item">
               <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
           {%- endfor -%}
-        </ul>
+          <!-- {% if site.minimal_mistakes_other_skin %}
+            <li>
+              <i type="button" onclick="if(sessionStorage.getItem('theme') == 'dark'){document.getElementById('theme_source').setAttribute('href', '/assets/css/main.css'); sessionStorage.setItem('theme', 'light');}else{document.getElementById('theme_source').setAttribute('href', '/assets/css/dark.css'); sessionStorage.setItem('theme', 'dark');} return false;" class="fas fa-moon fa-sm">
+              </i>
+            </li>
+          {% endif %} -->
+        
+
+        <script>
+          function themeToggle() {
+            if(sessionStorage.getItem('theme') == 'dark'){
+              document.getElementById('theme_source').setAttribute('href', '/assets/css/main.css');
+              document.getElementById('theme-toggle').setAttribute('class', 'fas fa-moon fa-xs');
+              sessionStorage.setItem('theme', 'light');
+            }
+            else{
+              document.getElementById('theme_source').setAttribute('href', '/assets/css/dark.css'); 
+              document.getElementById('theme-toggle').setAttribute('class', 'fas fa-sun fa-xs');
+              sessionStorage.setItem('theme', 'dark');
+            }
+          }
+        </script>
+
+        <!-- Theme toggle -->
+        <li class="masthead__menu-item">
+        {% if site.minimal_mistakes_other_skin %}     
+            <i id="theme-toggle" class="fas fa-moon fa-xs" type="button" onclick="themeToggle();" >
+            </i>
+        {% endif %}
+        </li>
+
+      </ul>
+
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>

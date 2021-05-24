@@ -8,13 +8,13 @@
   margin-left: 0;
   margin-right: 0;
   width: 100%;
-  margin-top: 3em;
+  //margin-top: 3em;
   color: $muted-text-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
-  background-color: $footer-background-color;
+  //background-color: $footer-background-color;
 
   footer {
     @include clearfix;
@@ -22,7 +22,8 @@
     margin-right: auto;
     margin-top: 2em;
     max-width: 100%;
-    padding: 0 1em 2em;
+    //padding: 0 0.25em 0.5em;
+    padding: 0 0.5em 1em;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -34,7 +35,7 @@
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
 
@@ -49,9 +50,15 @@
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
+  justify-content: center;
+  display: flex;
 }
 
 .page__footer-follow {
+
+  display: flex;
+  justify-content: center;
+  
   ul {
     margin: 0;
     padding: 0;
@@ -60,6 +67,7 @@
 
   li {
     display: inline-block;
+    margin: auto;
     padding-top: 5px;
     padding-bottom: 5px;
     font-family: $sans-serif-narrow;
@@ -67,10 +75,10 @@
     text-transform: uppercase;
   }
 
-  li + li:before {
-    content: "";
-    padding-right: 5px;
-  }
+  // li + li:before {
+  //   content: "";
+  //   padding-right: 5px;
+  // }
 
   a {
     padding-right: 10px;
@@ -80,6 +88,7 @@
   .social-icons {
     a {
       white-space: nowrap;
+      color: #B9B7B7;
     }
   }
 }

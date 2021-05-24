@@ -236,6 +236,7 @@
 
     a {
       position: relative;
+      font-size: $type-size-6;
 
       &:before {
         content: "";
@@ -251,11 +252,11 @@
         transform: scaleX(0) translate3d(0, 0, 0); // hide
       }
 
-      &:hover:before {
-        -webkit-transform: scaleX(1);
-        -ms-transform: scaleX(1);
-        transform: scaleX(1); // reveal
-      }
+      // &:hover:before {
+      //   -webkit-transform: scaleX(1);
+      //   -ms-transform: scaleX(1);
+      //   transform: scaleX(1); // reveal
+      // }
     }
   }
 
@@ -322,6 +323,7 @@
       }
     }
   }
+
 }
 
 .no-js {
