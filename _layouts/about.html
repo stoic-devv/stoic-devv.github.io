@@ -3,7 +3,10 @@ layout: splash
 opening-line: obladi-oblada
 ---
 
+{% include sidebar.html %}
 <div class="opening-line-container">
     <h1 class="opening-line"> {{page.opening-line}}</h1> 
-    {{content}}
+    <div class="about-me">
+        {{ content }}
+    </div>
 </div>

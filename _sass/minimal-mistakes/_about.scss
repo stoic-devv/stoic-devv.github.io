@@ -3,11 +3,14 @@
    ========================================================================== */
 
 .opening-line-container {
-    margin-top: 4em;
-    margin-left: 22px; //132px; //22px to align with masthead
+    margin-top: 2em;
+    margin-left: 111px; //132px; //22px to align with masthead
 
     .opening-line {
-        font-weight:600;
-        font-size: $type-size-1;
-    }    
+        font-size: $type-size-2;
+    }
+    
+    .about-me {
+        font-size: $type-size-5;
+    }
 }
