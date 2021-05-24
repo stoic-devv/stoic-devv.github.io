@@ -24,7 +24,7 @@
               </i>
             </li>
           {% endif %} -->
-        </ul>
+        
 
         <script>
           function themeToggle() {
@@ -42,10 +42,14 @@
         </script>
 
         <!-- Theme toggle -->
+        <li class="masthead__menu-item">
         {% if site.minimal_mistakes_other_skin %}     
-            <i id="theme-toggle" class="fas fa-moon fa-sm" type="button" onclick="themeToggle();" >
+            <i id="theme-toggle" class="fas fa-moon fa-xs" type="button" onclick="themeToggle();" >
             </i>
         {% endif %}
+        </li>
+
+      </ul>
 
         {% if site.search == true %}
         <button class="search__toggle" type="button">
