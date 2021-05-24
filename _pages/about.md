@@ -7,7 +7,7 @@ defaults:
 layout: about
 permalink: /about
 author_profile: false
-opening-line: ":pray: Namaste—I'm Aditya!"
+opening-line: "🙏 Namaste—I'm Aditya!"
 ---
 
 <!-- <div class="opening-line-container" style="margin-top: 2em">
@@ -16,5 +16,9 @@ opening-line: ":pray: Namaste—I'm Aditya!"
 </div> -->
 
 
-:poop: Upcoming graduate student at University of Illinois at Chicago \\
-:metal:  Currently, I'm trippin on life
+:man_student: Upcoming CS grad at University of Illinois Chicago\\
+:computer:  Software engineer-aspiring data scientist\\
+:earth_asia: Working on data-driven solutions for sustainability, awareness and art\\
+:telescope: I like to observe and understand people, events, and the mundane of daily life\\
+:books: I enjoy reading about technology, science, philosophy, history, politics
+
