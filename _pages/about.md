@@ -18,7 +18,7 @@ opening-line: "🙏 Namaste—I'm Aditya!"
 
 :man_student: Upcoming CS grad at University of Illinois Chicago\\
 :computer:  Software engineer-aspiring data scientist\\
-:earth_asia: Working on data-driven solutions for sustainability, awareness and art\\
+:seedling: Working on data-driven solutions for sustainability, awareness and art\\
 :telescope: I like to observe and understand people, events, and the mundane of daily life\\
 :books: I enjoy reading about technology, science, philosophy, history, politics
 

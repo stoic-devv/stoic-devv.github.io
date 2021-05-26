@@ -12,9 +12,9 @@
         {% endif %}
       {% endfor %}
     {% endif %}
-    {% unless site.atom_feed.hide %}
+    <!-- {% unless site.atom_feed.hide %}
       <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> </a></li>
-    {% endunless %}
+    {% endunless %} -->
   </ul>
 </div>
-<div class="page__footer-copyright"> Thank you for visiting. Let's stay connected. </div>
+<div class="page__footer-copyright"> Let's stay connected. </div>
