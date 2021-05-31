@@ -8,3 +8,4 @@ gem "jekyll-feed", "~> 0.1"
 gem "jekyll-include-cache", "~> 0.1"
 gem "jekyll-archives"
 gem "jemoji"
+gem 'jekyll-redirect-from' # find better way

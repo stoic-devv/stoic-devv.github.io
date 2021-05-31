@@ -222,6 +222,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-archives
   - jemoji
+  - jekyll-redirect-from
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -231,6 +232,7 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-archives
+  - jekyll-redirect-from
 
 
 # Archives
@@ -281,5 +283,5 @@ defaults:
       author_profile: false
       read_time: true
       comments: # true
-      share: true
+      share: false
       related: true
