@@ -6,6 +6,8 @@ defaults:
       type: pages
 layout: about
 permalink: /about
+redirect_from:
+    - /
 author_profile: false
 opening-line: "🙏 Namaste—I'm Aditya!"
 ---
