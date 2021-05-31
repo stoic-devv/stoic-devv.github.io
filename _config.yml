@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 minimal_mistakes_other_skin : "dark"
 # Site Settings
 locale                   : "en-US"
-title                    : "Home | Stoic Dev"
+title                    : "Home Stoic Dev"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Aditya"
